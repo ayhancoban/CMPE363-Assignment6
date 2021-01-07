@@ -25,7 +25,7 @@ echo "GÜLCE GÜLMEZ       117200050"
 echo "ZEYNEP BEGÜM DOST  118200051"
 
 // SQL Query:
-$tsql= "SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
+$tsql= "SELECT TOP 10 pc.Name as CategoryName, p.name as ProductName
          FROM [SalesLT].[ProductCategory] pc
          JOIN [SalesLT].[Product] p
          ON pc.productcategoryid = p.productcategoryid";
